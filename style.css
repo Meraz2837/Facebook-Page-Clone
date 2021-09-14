@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+i{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.486);
+}
+.Navbar1{
+    padding-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.151), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Navbar */
+.flex1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 0;
+}
+.flex1 i{
+    font-size: 40px;
+    color: rgb(64, 99, 212);
+}
+
+.flex1 .searchbar input{
+    margin-left: 5px;
+    width: 250px;
+    background: rgba(0, 0, 0, 0.11);
+    border: none;
+    border-radius: 500px;
+    padding: 9px 15px;
+    outline: none;
+}
+
+.navbarIcons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarIcons a{
+    padding: 5px 35px;
+    border-radius: 10px;
+}
+
+.navbarIcons a:hover{
+    background: rgba(0, 0, 0, 0.068);
+}
+
+.navbarIcons a:active,
+.navbarIcons a:focus{
+    border-bottom: 4px solid rgb(64, 99, 212);
+}
+
+.UserIcons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.UserIcons .user a{
+    padding: 0px 10px;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+.UserIcons .user a:hover{
+    background: rgba(0, 0, 0, 0.068);
+}
+.UserIcons .user a img{
+    border-radius: 50%;
+}
+.UserIcons .user a p{
+    margin-top: 13px;
+}
+
+.UserIcons{
+    display: flex;
+    justify-content: flex-end;
+}
+.UserIcons ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.UserIcons ul li{
+    margin: 0 3px;
+    padding: 9px;
+    cursor: pointer;
+    border-radius: 500px;
+    background: rgba(0, 0, 0, 0.068);
+}
+.UserIcons ul li:hover{
+    background: rgba(0, 0, 0, 0.274);
+}
+
+
+.UserIcons ul li .hov:focus,
+.UserIcons ul li .hov:active{
+    color: rgb(64, 99, 212);
+}
+
+/* Navbar */
+
+/* Body */
+.b-gray{
+    background: rgba(0, 0, 0, 0.055);
+}
+
+.body .row ul{
+    list-style: none;
+}
+.body .row ul li{
+    padding: 10px 0;
+}
+.body .row ul li a{
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.body .row ul li a:hover{
+    background: rgba(0, 0, 0, 0.068);
+}
+
+.body .row ul li a i{
+    width: 40px;
+    height: 40px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.body .row ul li a .space{
+    padding-left: 10px;
+}
+.body .row ul li a img{
+    border-radius: 50%;
+}
+.body .story .row .card-img-overlay img{
+    margin: -10px;
+}
+.body .story .row .card-img-overlay p{
+    margin-top: 140%;
+}
+.body .story .row .card{
+    cursor: pointer;
+}
